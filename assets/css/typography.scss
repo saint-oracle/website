@@ -1,0 +1,18 @@
+---
+# typography.scss
+---
+
+/* 1. Load your Outfit font once */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+
+
+:root {
+  /* switch both “plain” and “brand” to Outfit */
+  --md-ref-typeface-plain: 'Outfit', sans-serif;
+  --md-ref-typeface-brand: 'Outfit', sans-serif;
+}
+
+/* ensure the page defaults to your “plain” face */
+body {
+  font-family: var(--md-ref-typeface-plain);
+}

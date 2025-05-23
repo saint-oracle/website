@@ -1,0 +1,50 @@
+---
+# style.scss
+---
+
+/* 1. Two-column layout, centered, with side padding */
+.projects-page {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 24px;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 16px;
+  justify-items: center;
+}
+@media (max-width: 768px) {
+  .projects-page {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+}
+
+/* 2. Sidebar text centered */
+.projects-sidebar {
+  text-align: center;
+}
+
+/* 3. Cards container centered */
+.projects-list {
+  display: grid;
+  gap: 16px;
+  justify-items: center;
+}
+
+/* 5. Inner card flex: row → column, center icon on narrow */
+.project-card__content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: var(--project-card-padding, 16px);
+  background: var(--project-card-bg, var(--md-sys-color-surface, #fff));
+}
+@media (max-width: 600px) {
+  .project-card__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .project-card__content img {
+    align-self: center;
+  }
+}

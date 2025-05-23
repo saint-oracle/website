@@ -1,0 +1,61 @@
+{%- comment -%}
+_includes/components/project_card.html
+
+Parameters:
+  • icon        – path to your icon (required)
+  • title       – project name (optional)
+  • description – project blurb (optional)
+  • elevation   – 0–5 (default: 3)
+  • radius      – border-radius (default: 16px)
+  • padding     – inner padding (default: 24px)
+  • bg          – background color (default: var(--md-sys-color-surface,#fff))
+{%- endcomment -%}
+
+<style>
+  .surface {
+    position: relative;
+    border-radius: 16px;
+    --md-elevation-level: 3;
+  }
+</style>
+<div class="surface">
+  <md-elevation></md-elevation>
+  <!-- Content -->
+</div>
+
+<div
+  class="surface"
+>
+
+  <!-- shadow layer -->
+  <md-elevation ></md-elevation>
+
+  <!-- icon + text -->
+  <div class="project-card__content">
+    
+    {% if include.icon %}
+      <img
+        src="{{ include.icon | relative_url }}"
+        alt="{{ include.title | default: '' }} icon"
+        style="
+          width: {{ include.icon_size | default: '120px' }};
+          height: {{ include.icon_size | default: '120px' }};
+          object-fit: contain;
+        "
+      />
+    {% endif %}
+
+    <div style="flex:1">
+      {% if include.title %}
+        <h3 class="md-typescale-title-medium" style="margin:0">
+          {{ include.title }}
+        </h3>
+      {% endif %}
+      {% if include.description %}
+        <p class="md-typescale-body-medium" style="margin:0; margin-top:4px;">
+          {{ include.description }}
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</div>
