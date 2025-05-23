@@ -15,7 +15,7 @@ title: Saint Oracle
     {% include components/project_card.html
        icon="assets/images/cues_logo_and_text.png"
        title="act/on"
-       description="A minimal, local-first to-do app that helps you capture, organize and celebrate progress. Now available on Android."
+       description="A minimal, local-first to-do app that helps you capture, organize and celebrate progress. Available soon on android."
        elevation="3"
        padding="32px"
        icon_size="120px"
