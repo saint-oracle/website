@@ -18,8 +18,14 @@ permalink: /act/on/auth_success
 </div>
 
 <script>
-// Try to open the app automatically after short delay
-setTimeout(() => {
-  window.location.href = "acton://auth_success";
-}, 1000);
+  setTimeout(() => {
+    // Grab the full query string (e.g. "?token=abc&user_id=123")
+    const queryString = window.location.search;
+
+    // Construct the deep link URL with query string
+    const deepLink = `acton://auth_success${queryString}`;
+
+    // Redirect to app
+    window.location.href = deepLink;
+  }, 1000);
 </script>
