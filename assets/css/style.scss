@@ -48,3 +48,8 @@
     align-self: center;
   }
 }
+
+/* Links styling for project cards */
+.project-card__link:hover {
+  text-decoration: underline !important;
+}
