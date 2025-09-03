@@ -61,14 +61,18 @@ Parameters:
       {% if include.terms_url or include.privacy_url %}
         <div style="margin-top:8px;">
           {% if include.terms_url %}
-            <a href="{{ include.terms_url }}" class="project-card__link" style="color: #339fc4ff; text-decoration: none; font-size: 14px;">Terms of Use</a>
+            <a href="{{ include.terms_url }}" target="_blank" rel="noopener noreferrer" class="project-card__link" style="color: #339fc4ff; text-decoration: none; font-size: 14px;">Terms of Use</a>
           {% endif %}
           {% if include.terms_url and include.privacy_url %}
             <span style="margin: 0 8px; color: #339fc4ff;">•</span>
           {% endif %}
           {% if include.privacy_url %}
-            <a href="{{ include.privacy_url }}" class="project-card__link" style="color: #339fc4ff; text-decoration: none; font-size: 14px;">Privacy Policy</a>
+            <a href="{{ include.privacy_url }}" target="_blank" rel="noopener noreferrer" class="project-card__link" style="color: #339fc4ff; text-decoration: none; font-size: 14px;">Privacy Policy</a>
           {% endif %}
+          {% if include.privacy_url or include.terms_url %}
+            <span style="margin: 0 8px; color: #339fc4ff;">•</span>
+          {% endif %}
+          <a href="/act/on/deleting-account" target="_blank" rel="noopener noreferrer" class="project-card__link" style="color: #339fc4ff; text-decoration: none; font-size: 14px;">Delete Account</a>
         </div>
       {% endif %}
     </div>

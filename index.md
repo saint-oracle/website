@@ -19,8 +19,8 @@ title: Saint Oracle
        elevation="3"
        padding="32px"
        icon_size="120px"
-       terms_url="https://saint-oracle.gitbook.io/info/act-on/terms-of-use"
-       privacy_url="https://saint-oracle.gitbook.io/info/act-on/privacy-policy"
+       terms_url="/act/on/terms-of-use"
+       privacy_url="/act/on/privacy-policy"
     %}
   </main>
 </div>
