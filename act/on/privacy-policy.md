@@ -128,7 +128,7 @@ title: act/on Privacy Policy
       </p>
       <ul class="md-typescale-body-large">
         <li><strong>With Your Consent</strong>: When you explicitly agree to share.</li>
-        <li><strong>Service Providers</strong>: Third-party services that help operate the App (e.g., Supabase for cloud sync).</li>
+        <li><strong>Service Providers</strong>: Third-party services that help operate the App. These include Google Firebase services for database hosting, cloud storage, and authentication.</li>
         <li><strong>Legal Requirements</strong>: If required by law or to protect our rights.</li>
       </ul>
 
@@ -142,7 +142,7 @@ title: act/on Privacy Policy
         <li><strong>Access and Portability</strong>: Request a copy of your data.</li>
         <li><strong>Correction</strong>: Update inaccurate information.</li>
         <li><strong>Deletion</strong>: Request deletion of your account and associated data. <a href="/act/on/deleting-account" style="color: var(--md-sys-color-primary, #339fc4ff); text-decoration: underline;">Learn how to delete your account</a></li>
-        <li><strong>Opt-Out</strong>: Disable sync to keep data only on your device.</li>
+        <li><strong>Opt-Out</strong>: Disable sync to keep data only on your device. To do this, you can sign out of your account on the Account page within the app.</li>
       </ul>
 
       <h2 class="md-typescale-title-large">7. Children's Privacy</h2>
@@ -176,7 +176,7 @@ title: act/on Privacy Policy
       </div>
 
       <div class="legal-footer">
-        <p class="md-typescale-body-medium">Last updated: {{ "now" | date: "%B %d, %Y" }}</p>
+        <p class="md-typescale-body-medium">Last updated: September 08, 2025</p>
       </div>
 
       <a href="/" class="back-button md-typescale-label-large">

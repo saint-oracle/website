@@ -122,7 +122,7 @@ title: act/on Terms of Use
 
       <h2 class="md-typescale-title-large">7. Optional Cloud Sync</h2>
       <p class="md-typescale-body-large">
-        When you enable sync, your Content is stored in the act/on cloud, hosted by Supabase.
+        When you enable sync, your Content is stored in the act/on cloud, hosted by Google Firebase.
       </p>
 
       <h2 class="md-typescale-title-large">8. Fees and Payment</h2>
@@ -138,7 +138,7 @@ title: act/on Terms of Use
       </p>
 
       <div class="legal-footer">
-        <p class="md-typescale-body-medium">Last updated: {{ "now" | date: "%B %d, %Y" }}</p>
+        <p class="md-typescale-body-medium">Last updated: September 08, 2025</p>
       </div>
 
       <a href="/" class="back-button md-typescale-label-large">
