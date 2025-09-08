@@ -1,6 +1,6 @@
 ---
 layout: default
-title: act/on Terms of Use
+title: act/on Terms of Service
 ---
 
 <style>

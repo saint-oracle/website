@@ -19,7 +19,7 @@ title: Saint Oracle
        elevation="3"
        padding="32px"
        icon_size="120px"
-       terms_url="/act/on/terms-of-use"
+       terms_url="/act/on/terms-of-service"
        privacy_url="/act/on/privacy-policy"
     %}
   </main>
