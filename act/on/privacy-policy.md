@@ -95,7 +95,7 @@ title: act/on Privacy Policy
       <h3 class="md-typescale-title-medium">2.1. Information You Provide Directly</h3>
       <ul class="md-typescale-body-large">
         <li><strong>Account Information</strong>: When you sign up via our authentication service, we collect your email address. If you do not authenticate (sign in), your data is not sent to our servers.</li>
-        <li><strong>Content Data</strong>: If you sign in, any content data entered into the app is synced to our servers, and is available on any devices that you sign in with. This includes Lists, Sections, and Items you create within the App, and any associated settings, notes, and metadata.</li>
+        <li><strong>Content Data</strong>: If you sign in and have an active paid subscription, any content data entered into the app is synced to our servers, and is available on any devices that you sign in with. This includes Lists, Sections, and Items you create within the App, and any associated settings, notes, and metadata.</li>
       </ul>
 
       <h3 class="md-typescale-title-medium">2.2. Automatically Collected Information</h3>
@@ -106,18 +106,18 @@ title: act/on Privacy Policy
 
       <h3 class="md-typescale-title-medium">2.3. Locally-First Storage</h3>
       <p class="md-typescale-body-large">
-        All data you create is stored locally on your device. You retain full control over your data; this data is accessible to anyone that has access to the act/on app on your device. When act/on is accessed via a web browser, your Content is <em>not</em> saved locally. No data, including anything entered in the app, usage, or analytics, is sent to our servers unless you decide to connect an account and sync, though app store providers may still share usage crash reports and other similar reports with us.
+        All data you create is stored locally on your device. You retain full control over your data; this data is accessible to anyone that has access to the act/on app on your device. When act/on is accessed via a web browser, your Content is <em>not</em> saved locally. No data, including anything entered in the app, usage, or analytics, is sent to our servers unless you decide to connect an account with an active paid subscription to enable sync, though app store providers may still share usage crash reports and other similar reports with us.
       </p>
 
-      <h3 class="md-typescale-title-medium">2.4. Optional Cloud Sync</h3>
+      <h3 class="md-typescale-title-medium">2.4. Optional Cloud Sync (Paid Feature)</h3>
       <p class="md-typescale-body-large">
-        When signing in with your account, your data is synced to a secured cloud service to enable multi-device access and backups. Synced data includes the same types collected locally (account and content data).
+        When signing in with your account and an active paid subscription, your data is synced to a secured cloud service to enable multi-device access and backups. Synced data includes the same types collected locally (account and content data). Note: Cloud sync functionality requires a paid subscription to act/on.
       </p>
 
       <h2 class="md-typescale-title-large">3. How We Use Your Information</h2>
       <ul class="md-typescale-body-large">
         <li><strong>To Provide and Maintain the Service</strong>: Authenticate users, store and retrieve your content.</li>
-        <li><strong>To Sync Across Devices</strong>: When enabled, sync data securely to the cloud so you can access your content from multiple devices.</li>
+        <li><strong>To Sync Across Devices</strong>: When enabled with a paid subscription, sync data securely to the cloud so you can access your content from multiple devices.</li>
         <li><strong>To Improve the App</strong>: Analyze usage patterns to enhance functionality and user experience.</li>
         <li><strong>To Communicate With You</strong>: Send important updates about the Service (if you've provided contact information).</li>
       </ul>
@@ -142,7 +142,7 @@ title: act/on Privacy Policy
         <li><strong>Access and Portability</strong>: Request a copy of your data.</li>
         <li><strong>Correction</strong>: Update inaccurate information.</li>
         <li><strong>Deletion</strong>: Request deletion of your account and associated data. <a href="/act/on/deleting-account" style="color: var(--md-sys-color-primary, #339fc4ff); text-decoration: underline;">Learn how to delete your account</a></li>
-        <li><strong>Opt-Out</strong>: Disable sync to keep data only on your device. To do this, you can sign out of your account on the Account page within the app.</li>
+        <li><strong>Opt-Out</strong>: Disable sync to keep data only on your device. To do this, you can sign out of your account on the Account page within the app, or simply use the app without a paid subscription.</li>
       </ul>
 
       <h2 class="md-typescale-title-large">7. Children's Privacy</h2>
@@ -176,7 +176,7 @@ title: act/on Privacy Policy
       </div>
 
       <div class="legal-footer">
-        <p class="md-typescale-body-medium">Last updated: September 08, 2025</p>
+        <p class="md-typescale-body-medium">Last updated: September 09, 2025</p>
       </div>
 
       <a href="/" class="back-button md-typescale-label-large">
