@@ -20,11 +20,6 @@ title: Contact Us
                   class="md-outlined-button">
             Copy
           </button>
-
-          <a href="mailto:contact@saintoracle.com"
-             class="md-filled-button">
-            Open Email
-          </a>
         </div>
       </div>
     </div>
