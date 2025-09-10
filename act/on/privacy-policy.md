@@ -161,13 +161,13 @@ title: act/on Privacy Policy
       </p>
       <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 12px;">
         <span class="md-typescale-body-large" style="font-family: monospace; background: var(--md-sys-color-surface-variant, #E7E0EC); padding: 8px 12px; border-radius: 8px; word-break: break-all;">
-          saintoracleofficial@gmail.com
+          contact@saintoracle.com
         </span>
-        <button onclick="navigator.clipboard.writeText('saintoracleofficial@gmail.com').then(() => { this.textContent = 'Copied!'; setTimeout(() => this.textContent = 'Copy', 2000); })" 
+        <button onclick="navigator.clipboard.writeText('contact@saintoracle.com').then(() => { this.textContent = 'Copied!'; setTimeout(() => this.textContent = 'Copy', 2000); })" 
                 style="background: var(--md-sys-color-primary, #339fc4ff); color: var(--md-sys-color-on-primary, #fff); border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s; min-width: 80px; white-space: nowrap;">
           Copy
         </button>
-        <a href="mailto:saintoracleofficial@gmail.com" 
+        <a href="mailto:contact@saintoracle.com" 
            style="background: var(--md-sys-color-primary, #339fc4ff); color: var(--md-sys-color-on-primary, #fff); text-decoration: none; padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 500; transition: all 0.2s; white-space: nowrap;"
            onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.15)';"
            onmouseout="this.style.transform=''; this.style.boxShadow='';">

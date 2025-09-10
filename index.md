@@ -4,14 +4,9 @@ title: Saint Oracle
 ---
 
 <div class="projects-page">
-  <aside class="projects-sidebar">
-    <h1 class="md-typescale-display-small">Saint Oracle</h1>
-    <p class="md-typescale-body-medium">
-      App maker and game developer. Project showcase.
-    </p>
-  </aside>
-
-  <main class="projects-list">
+  <h2 class="md-typescale-title-medium" style="text-align: center; grid-column: 1 / -1; margin-bottom: 0rem;">Creators of:</h2>
+  
+  <main class="projects-list" style="grid-column: 1 / -1;">
     {% include components/project_card.html
        icon="assets/images/cues_logo_and_text.png"
        title="act/on"

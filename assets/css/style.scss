@@ -2,6 +2,39 @@
 # style.scss
 ---
 
+/* Navigation bar */
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--md-sys-color-on-surface, #000);
+  text-decoration: none;
+}
+
+.nav-link {
+  color: var(--md-sys-color-primary, #006494);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .site-nav {
+    padding: 1rem;
+  }
+}
+
 /* 1. Two-column layout, centered, with side padding */
 .projects-page {
   display: grid;
