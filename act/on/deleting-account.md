@@ -114,29 +114,8 @@ title: Deleting Your act/on Account
 
       <h2 class="md-typescale-title-large">If you have never signed in...</h2>
       <p class="md-typescale-body-large">
-        If you have never connected an account, nothing gets sent to our servers, and there is nothing to delete. You can, however, delete all data off of your device by pressing the "Delete local data" button from the Account tab.
+        If you have never connected an account and started a paid subscription, nothing gets sent to our servers, and there is nothing to delete. You can, however, delete all data off of your device by pressing the "Delete local data" button from the Account tab.
       </p>
-
-      <h2 class="md-typescale-title-large">If you have already deleted the app...</h2>
-      <p class="md-typescale-body-large">
-        If you have already deleted the app and do not wish to re-download it, you can request that all of your data is deleted by sending an email to:
-      </p>
-      
-      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 12px;">
-        <span class="md-typescale-body-large" style="font-family: monospace; background: var(--md-sys-color-surface-variant, #E7E0EC); padding: 8px 12px; border-radius: 8px; word-break: break-all;">
-          contact@saintoracle.com
-        </span>
-        <button onclick="navigator.clipboard.writeText('contact@saintoracle.com').then(() => { this.textContent = 'Copied!'; setTimeout(() => this.textContent = 'Copy', 2000); })" 
-                style="background: var(--md-sys-color-primary, #339fc4ff); color: var(--md-sys-color-on-primary, #fff); border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s; min-width: 80px; white-space: nowrap;">
-          Copy
-        </button>
-        <a href="mailto:contact@saintoracle.com?subject=Account%20Deletion%20Request" 
-           style="background: var(--md-sys-color-primary, #339fc4ff); color: var(--md-sys-color-on-primary, #fff); text-decoration: none; padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 500; transition: all 0.2s; white-space: nowrap;"
-           onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.15)';"
-           onmouseout="this.style.transform=''; this.style.boxShadow='';">
-          Send Email
-        </a>
-      </div>
 
       <div class="legal-footer">
         <p class="md-typescale-body-medium">Last updated: {{ "now" | date: "%B %d, %Y" }}</p>
