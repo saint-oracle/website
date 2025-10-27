@@ -9,6 +9,7 @@ Parameters:
   • radius      – border-radius (default: 16px)
   • padding     – inner padding (default: 24px)
   • bg          – background color (default: var(--md-sys-color-surface,#fff))
+  • link_url    – URL to link the entire card to (optional)
   • terms_url   – URL for terms of use (optional)
   • privacy_url – URL for privacy policy (optional)
 {%- endcomment -%}
@@ -19,11 +20,22 @@ Parameters:
     border-radius: 16px;
     --md-elevation-level: 3;
   }
+  .project-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  .project-card-link .surface {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .project-card-link:hover .surface {
+    transform: translateY(-2px);
+  }
 </style>
-<div class="surface">
-  <md-elevation></md-elevation>
-  <!-- Content -->
-</div>
+
+{% if include.link_url %}
+<a href="{{ include.link_url }}" class="project-card-link">
+{% endif %}
 
 <div
   class="surface"
@@ -33,7 +45,7 @@ Parameters:
   <md-elevation ></md-elevation>
 
   <!-- icon + text -->
-  <div class="project-card__content">
+  <div class="project-card__content" style="border-radius: 16px !important; overflow: hidden !important; -webkit-border-radius: 16px !important;">
     
     {% if include.icon %}
       <img
@@ -78,3 +90,7 @@ Parameters:
     </div>
   </div>
 </div>
+
+{% if include.link_url %}
+</a>
+{% endif %}

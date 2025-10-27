@@ -1,30 +1,26 @@
 ---
 layout: default
-title: Saint Oracle - Introducing act/on
+title: act/on - Minimal List App
 ---
-
-<div style="text-align: center; margin: 1rem auto 0; max-width: 900px; padding: 0 1rem;">
-  <p class="md-typescale-title-large" style="margin-bottom: 1rem; color: var(--md-sys-color-on-surface-variant, #49454F);">Introducing:</p>
-</div>
 
 <style>
   .product-page {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem 2rem;
+    padding: 2rem 1rem;
   }
 
   .product-hero {
     text-align: center;
-    padding: 2rem 1rem 3rem;
+    padding: 3rem 1rem;
     background: linear-gradient(135deg, var(--md-sys-color-primary-container, #B8E7FF) 0%, var(--md-sys-color-secondary-container, #D0E4FF) 100%);
     border-radius: 24px;
     margin-bottom: 3rem;
   }
 
-  .product-hero img {
-    display: block;
-    margin: 0 auto 1.5rem;
+  .product-hero h1 {
+    color: var(--md-sys-color-on-primary-container, #001F2A);
+    margin-bottom: 1rem;
   }
 
   .product-hero .tagline {
@@ -70,6 +66,12 @@ title: Saint Oracle - Introducing act/on
     margin-bottom: 3rem;
   }
 
+  .features-section h2 {
+    text-align: center;
+    color: var(--md-sys-color-on-surface, #1C1B1F);
+    margin-bottom: 2rem;
+  }
+
   .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -81,6 +83,11 @@ title: Saint Oracle - Introducing act/on
     border-radius: 16px;
     padding: 2rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+
+  .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
   }
 
   .feature-card h3 {
@@ -208,7 +215,7 @@ title: Saint Oracle - Introducing act/on
 
 <div class="product-page">
   <div class="product-hero">
-    <img src="/assets/images/cues_logo_and_text.png" alt="act/on" style="width: 180px; height: auto;">
+    <img src="/assets/images/cues_logo_and_text.png" alt="act/on" style="width: 180px; height: auto; margin: 0 auto 1.5rem;">
     <p class="tagline md-typescale-headline-medium">Track everything. Stay organized. Celebrate progress.</p>
     <p class="description md-typescale-body-large">
       A minimal list app designed to help you organize your life without the clutter. From daily tasks to long-term goals, act/on keeps everything in one place.
@@ -242,6 +249,7 @@ title: Saint Oracle - Introducing act/on
         </p>
       </div>
     </div>
+
   </div>
 
   <div class="screenshot-section">
@@ -292,6 +300,7 @@ title: Saint Oracle - Introducing act/on
         <p>Capture ideas, inspiration, and things you want to remember for later.</p>
       </div>
     </div>
+
   </div>
 
   <div class="cta-section">
@@ -309,5 +318,6 @@ title: Saint Oracle - Introducing act/on
       <a href="/act/on/terms-of-service" class="md-typescale-body-medium">Terms of Service</a>
       <a href="/act/on/deleting-account" class="md-typescale-body-medium">Delete Account</a>
     </div>
+
   </div>
 </div>
