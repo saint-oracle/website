@@ -112,7 +112,16 @@ title: act/on Terms of Service
         <li>You grant Saint Oracle LLC and the act/on app permission to access, store, and display your Content solely to operate, provide, and improve the Service.</li>
       </ul>
 
-      <h2 class="md-typescale-title-large">6. Acceptable Use</h2>
+      <h2 class="md-typescale-title-large">6. Usage Restrictions</h2>
+      <p class="md-typescale-body-large">You may not, and you agree not to or enable others to:</p>
+      <ul class="md-typescale-body-large">
+        <li>Copy, modify, or create derivative works of the App or any part thereof.</li>
+        <li>Reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the App, except to the extent expressly permitted by applicable law.</li>
+        <li>Rent, lease, lend, sell, redistribute, or sublicense the App.</li>
+        <li>Remove, alter, or obscure any proprietary notices (including copyright and trademark notices) on the App.</li>
+      </ul>
+
+      <h2 class="md-typescale-title-large">7. Acceptable Use</h2>
       <p class="md-typescale-body-large">You agree not to:</p>
       <ul class="md-typescale-body-large">
         <li>Use the Service for any unlawful purpose.</li>
@@ -120,25 +129,40 @@ title: act/on Terms of Service
         <li>Attempt to gain unauthorized access to any part of the Service.</li>
       </ul>
 
-      <h2 class="md-typescale-title-large">7. Optional Cloud Sync</h2>
+      <h2 class="md-typescale-title-large">8. Optional Cloud Sync</h2>
       <p class="md-typescale-body-large">
         When you enable sync, your Content is stored in the act/on cloud, hosted by Google Firebase.
       </p>
 
-      <h2 class="md-typescale-title-large">8. Fees and Payment</h2>
+      <h2 class="md-typescale-title-large">9. Fees and Payment</h2>
       <ul class="md-typescale-body-large">
         <li>Using the app locally is free.</li>
         <li>When syncing across devices, a paid, recurring subscription plan is required.</li>
         <li>We may introduce additional paid features or subscription plans in the future; if so, you will have the option to opt in, and payment terms will be clearly stated.</li>
       </ul>
 
-      <h2 class="md-typescale-title-large">9. Intellectual Property</h2>
+      <h2 class="md-typescale-title-large">10. Intellectual Property</h2>
       <p class="md-typescale-body-large">
         The App and its original content, features, and functionality are and will remain the exclusive property of Saint Oracle LLC and its licensors.
       </p>
 
+      <h2 class="md-typescale-title-large">11. Warranty Disclaimer</h2>
+      <p class="md-typescale-body-large">
+        The App is provided "as is" and "as available," without warranty of any kind. To the maximum extent permitted by law, Saint Oracle LLC disclaims all warranties, express or implied, including warranties of merchantability, fitness for a particular purpose, and non-infringement.
+      </p>
+
+      <h2 class="md-typescale-title-large">12. Limitation of Liability</h2>
+      <p class="md-typescale-body-large">
+        TO THE MAXIMUM EXTENT PERMITTED BY LAW, SAINT ORACLE LLC SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS, DATA, OR BUSINESS INTERRUPTION, ARISING FROM YOUR USE OR INABILITY TO USE THE APP.
+      </p>
+
+      <h2 class="md-typescale-title-large">13. Termination</h2>
+      <p class="md-typescale-body-large">
+        This Agreement terminates automatically if you fail to comply with any term. Saint Oracle LLC may suspend or terminate your access to the Service at any time. Upon termination, you must cease all use of the App.
+      </p>
+
       <div class="legal-footer">
-        <p class="md-typescale-body-medium">Last updated: September 08, 2025</p>
+        <p class="md-typescale-body-medium">Last updated: October 30, 2025</p>
       </div>
 
       <a href="/" class="back-button md-typescale-label-large">
