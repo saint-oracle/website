@@ -46,24 +46,32 @@ title: Saint Oracle - Introducing act/on
     display: flex;
     gap: 1rem;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin-top: 1.5rem;
   }
 
   .store-badge {
-    background: var(--md-sys-color-primary, #339fc4ff);
-    color: var(--md-sys-color-on-primary, #fff);
-    padding: 0.75rem 2rem;
-    border-radius: 12px;
     text-decoration: none;
-    font-weight: 600;
     transition: all 0.2s ease;
     display: inline-block;
   }
 
   .store-badge:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    opacity: 0.85;
+  }
+
+  .play-store-badge img {
+    height: 74px;
+    width: auto;
+    display: block;
+  }
+
+  .app-store-badge img {
+    height: 62px;
+    width: auto;
+    display: block;
   }
 
   .features-section {
@@ -214,8 +222,12 @@ title: Saint Oracle - Introducing act/on
       A minimal list app designed to help you organize your life without the clutter. From daily tasks to long-term goals, act/on keeps everything in one place.
     </p>
     <div class="store-badges">
-      <span class="store-badge md-typescale-label-large">Coming Soon to Play Store</span>
-      <span class="store-badge md-typescale-label-large">Coming Soon to App Store</span>
+      <a href="https://play.google.com/store/apps/details?id=com.saintoracle.acton" class="store-badge play-store-badge" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/images/play_store.svg" alt="Get it on Google Play" />
+      </a>
+      <a href="https://apps.apple.com/us/app/act-on/id6752871642" class="store-badge app-store-badge" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/images/app_store_white.svg" alt="Download on the App Store" />
+      </a>
     </div>
   </div>
 
@@ -297,11 +309,15 @@ title: Saint Oracle - Introducing act/on
   <div class="cta-section">
     <h2 class="md-typescale-display-small">Ready to Get Organized?</h2>
     <p class="md-typescale-body-large">
-      act/on is coming soon to the Play Store and App Store. Sign up for updates or follow us to be notified when it launches.
+      Download act/on today and start organizing your life with a minimal, focused list app.
     </p>
     <div class="store-badges">
-      <span class="store-badge md-typescale-label-large">Coming Soon to Play Store</span>
-      <span class="store-badge md-typescale-label-large">Coming Soon to App Store</span>
+      <a href="https://play.google.com/store/apps/details?id=com.saintoracle.acton" class="store-badge play-store-badge" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/images/play_store.svg" alt="Get it on Google Play" />
+      </a>
+      <a href="https://apps.apple.com/us/app/act-on/id6752871642" class="store-badge app-store-badge" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/images/app_store_white.svg" alt="Download on the App Store" />
+      </a>
     </div>
 
     <div class="legal-links">
