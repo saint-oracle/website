@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Saint Oracle - Introducing act/on
+title: act/on - Minimal List App | Saint Oracle
+description: act/on is a minimal list app to track everything from daily tasks to long-term goals. Simple, flexible, and satisfying. Download free on iOS and Android.
+keywords: act/on app, todo list app, task manager, checklist app, productivity app, goal tracker, shopping list app, minimal list app, iOS todo app, Android todo app, free list app, organize life app
 ---
 
 <div style="text-align: center; margin: 1rem auto 0; max-width: 900px; padding: 0 1rem;">
@@ -44,7 +46,8 @@ title: Saint Oracle - Introducing act/on
 
   .store-badges {
     display: flex;
-    gap: 1rem;
+    column-gap: 1rem;
+    row-gap: 0.75rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -211,12 +214,16 @@ title: Saint Oracle - Introducing act/on
     .use-cases-grid {
       grid-template-columns: 1fr;
     }
+
+    .store-badges {
+      row-gap: 0.5rem;
+    }
   }
 </style>
 
 <div class="product-page">
   <div class="product-hero">
-    <img src="/assets/images/cues_logo_and_text.png" alt="act/on" style="width: 180px; height: auto;">
+    <img src="/assets/images/cues_logo_and_text.png" alt="act/on" style="width: 180px; height: auto; margin: 0 auto 1rem;">
     <p class="tagline md-typescale-headline-medium">Track everything. Stay organized. Celebrate progress.</p>
     <p class="description md-typescale-body-large">
       A minimal list app designed to help you organize your life without the clutter. From daily tasks to long-term goals, act/on keeps everything in one place.

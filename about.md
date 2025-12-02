@@ -1,6 +1,8 @@
 ---
 layout: default
 title: About Saint Oracle
+description: Saint Oracle LLC is a software development studio dedicated to creating apps that empower users to reach their full potential.
+keywords: Saint Oracle, software development, app studio, about us
 ---
 
 <style>

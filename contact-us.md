@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Contact Us
+title: Contact Us - Saint Oracle
+description: Get in touch with Saint Oracle. Questions, feedback, or support for act/on and other products. Email us at contact@saintoracle.com.
+keywords: contact Saint Oracle, support, feedback, act/on support
 ---
 
 <div class="contact-page">
