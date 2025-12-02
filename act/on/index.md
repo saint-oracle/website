@@ -275,9 +275,9 @@ keywords: act/on app, todo list app, task manager, checklist app, productivity a
     <h2 class="md-typescale-display-small">See act/on in Action</h2>
     <p class="md-typescale-body-large">Experience a clean, focused interface designed for productivity.</p>
     <div class="screenshot-gallery">
-      <img src="/assets/images/screenshots/Screenshot-3-1284x2778.png" alt="act/on screenshot 3" />
-      <img src="/assets/images/screenshots/Screenshot-1-1284x2778.png" alt="act/on screenshot 1" />
-      <img src="/assets/images/screenshots/Screenshot-2-1284x2778.png" alt="act/on screenshot 2" />
+      <img src="/assets/images/screenshots/screenshot-3.jpg" alt="act/on screenshot 3" />
+      <img src="/assets/images/screenshots/screenshot-1.jpg" alt="act/on screenshot 1" />
+      <img src="/assets/images/screenshots/screenshot-2.jpg" alt="act/on screenshot 2" />
     </div>
   </div>
 
