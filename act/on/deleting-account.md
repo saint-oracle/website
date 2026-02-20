@@ -99,12 +99,12 @@ title: Deleting Your act/on Account
       </ul>
       
       <p class="md-typescale-body-large">
-        You can easily delete all your account data, right from within the app.
+        You can easily delete all your account data by visiting our <a href="https://acton.saintoracle.app/account/delete" style="color: var(--md-sys-color-primary, #339fc4ff); text-decoration: underline;">account deletion page</a>, or from within the app.
       </p>
 
       <h2 class="md-typescale-title-large">If you are signed in...</h2>
       <p class="md-typescale-body-large">
-        Assuming you've actually connected an account using one of the third party authentication methods, go to the "Account" tab and press the "Delete account and data" button. You will be required to confirm on the next page. Once you do, your data will be immediately deleted and your authenticated status revoked.
+        Visit <a href="https://acton.saintoracle.app/account/delete" style="color: var(--md-sys-color-primary, #339fc4ff); text-decoration: underline;">acton.saintoracle.app/account/delete</a> to delete your account. You will be required to sign in and confirm. Once you do, your data will be immediately deleted and your authenticated status revoked. You can also delete your account from within the app by going to the "Account" tab and pressing the "Delete account and data" button.
       </p>
 
       <h2 class="md-typescale-title-large">If you are NOT signed in...</h2>

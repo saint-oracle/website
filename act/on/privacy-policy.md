@@ -141,7 +141,7 @@ title: act/on Privacy Policy
       <ul class="md-typescale-body-large">
         <li><strong>Access and Portability</strong>: Request a copy of your data.</li>
         <li><strong>Correction</strong>: Update inaccurate information.</li>
-        <li><strong>Deletion</strong>: Request deletion of your account and associated data. <a href="/act/on/deleting-account" style="color: var(--md-sys-color-primary, #339fc4ff); text-decoration: underline;">Learn how to delete your account</a></li>
+        <li><strong>Deletion</strong>: Request deletion of your account and associated data. You can <a href="https://acton.saintoracle.app/account/delete" style="color: var(--md-sys-color-primary, #339fc4ff); text-decoration: underline;">delete your account here</a>, or <a href="/act/on/deleting-account" style="color: var(--md-sys-color-primary, #339fc4ff); text-decoration: underline;">learn more about account deletion</a>.</li>
         <li><strong>Opt-Out</strong>: Disable sync to keep data only on your device. To do this, you can sign out of your account on the Account page within the app, or simply use the app without a paid subscription.</li>
       </ul>
 
