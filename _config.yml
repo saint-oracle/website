@@ -1,3 +1,6 @@
+include:
+  - .well-known
+
 title: Saint Oracle
 description: Saint Oracle LLC builds thoughtful software. Home of act/on, a minimal list app to help you track everything and stay organized.
 url: https://saintoracle.com
