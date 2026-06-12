@@ -134,7 +134,7 @@ title: act/on Privacy Policy
 
       <h2 class="md-typescale-title-large">5. Data Security</h2>
       <p class="md-typescale-body-large">
-        We implement appropriate technical and organizational measures to protect your information against unauthorized access, alteration, disclosure, or destruction.
+        We implement appropriate and industry standard technical and organizational measures to protect your information against unauthorized access, alteration, disclosure, or destruction.
       </p>
 
       <h2 class="md-typescale-title-large">6. Your Rights</h2>
