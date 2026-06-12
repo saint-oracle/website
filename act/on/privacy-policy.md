@@ -128,7 +128,7 @@ title: act/on Privacy Policy
       </p>
       <ul class="md-typescale-body-large">
         <li><strong>With Your Consent</strong>: When you explicitly agree to share.</li>
-        <li><strong>Service Providers</strong>: Third-party services that help operate the App. These include Google Firebase services for database hosting, cloud storage, and authentication.</li>
+        <li><strong>Service Providers</strong>: Third-party services that help operate the App. These include Google Firebase services for authentication, push notification delivery, image storage, and web app hosting, and Railway for hosting the application servers and database that store and sync your account and content data.</li>
         <li><strong>Legal Requirements</strong>: If required by law or to protect our rights.</li>
       </ul>
 
@@ -176,7 +176,7 @@ title: act/on Privacy Policy
       </div>
 
       <div class="legal-footer">
-        <p class="md-typescale-body-medium">Last updated: November 04, 2025</p>
+        <p class="md-typescale-body-medium">Last updated: June 11, 2026</p>
       </div>
 
       <a href="/" class="back-button md-typescale-label-large">

@@ -131,7 +131,7 @@ title: act/on Terms of Service
 
       <h2 class="md-typescale-title-large">8. Optional Cloud Sync</h2>
       <p class="md-typescale-body-large">
-        When you enable sync, your Content is stored in the act/on cloud, hosted by Google Firebase.
+        When you enable sync, your Content is stored in the act/on cloud, hosted on Railway; authentication and related services are provided by Google Firebase.
       </p>
 
       <h2 class="md-typescale-title-large">9. Fees and Payment</h2>
@@ -162,7 +162,7 @@ title: act/on Terms of Service
       </p>
 
       <div class="legal-footer">
-        <p class="md-typescale-body-medium">Last updated: October 30, 2025</p>
+        <p class="md-typescale-body-medium">Last updated: June 11, 2026</p>
       </div>
 
       <a href="/" class="back-button md-typescale-label-large">
