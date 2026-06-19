@@ -73,6 +73,18 @@ keywords: act/on app, todo list app, task manager, checklist app, productivity a
     display: block;
   }
 
+  .mac-store-badge img {
+    height: 62px;
+    width: auto;
+    display: block;
+  }
+
+  .windows-store-badge img {
+    height: 62px;
+    width: auto;
+    display: block;
+  }
+
   .features-section {
     margin-bottom: 3rem;
   }
@@ -240,7 +252,13 @@ keywords: act/on app, todo list app, task manager, checklist app, productivity a
         <img src="/assets/images/play_store.svg" alt="Get it on Google Play" />
       </a>
       <a href="https://apps.apple.com/us/app/act-on/id6752871642" class="store-badge app-store-badge" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/app_store_white.svg" alt="Download on the App Store" />
+        <img src="/assets/images/app_store_black.svg" alt="Download on the App Store" />
+      </a>
+      <a href="https://apps.apple.com/us/app/act-on/id6752871642" class="store-badge mac-store-badge" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/images/mac_store_black.svg" alt="Download on the Mac App Store" />
+      </a>
+      <a href="https://apps.microsoft.com/detail/9njvr9lprxd9" class="store-badge windows-store-badge" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/images/ms_store_dark.svg" alt="Get it from Microsoft" />
       </a>
     </div>
   </div>
@@ -332,7 +350,13 @@ keywords: act/on app, todo list app, task manager, checklist app, productivity a
         <img src="/assets/images/play_store.svg" alt="Get it on Google Play" />
       </a>
       <a href="https://apps.apple.com/us/app/act-on/id6752871642" class="store-badge app-store-badge" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/app_store_white.svg" alt="Download on the App Store" />
+        <img src="/assets/images/app_store_black.svg" alt="Download on the App Store" />
+      </a>
+      <a href="https://apps.apple.com/us/app/act-on/id6752871642" class="store-badge mac-store-badge" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/images/mac_store_black.svg" alt="Download on the Mac App Store" />
+      </a>
+      <a href="https://apps.microsoft.com/detail/9njvr9lprxd9" class="store-badge windows-store-badge" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/images/ms_store_dark.svg" alt="Get it from Microsoft" />
       </a>
     </div>
 
