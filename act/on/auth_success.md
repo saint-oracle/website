@@ -6,7 +6,7 @@ permalink: /act/on/auth_success
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-height: 80vh; padding: 24px;">
 
-  <img src="/assets/images/cues_logo_and_text.png" alt="act/on logo" style="width: 120px; height: 120px; object-fit: contain; margin-bottom: 24px;" />
+  <img src="/assets/images/cues_logo_and_text.png" alt="act/on logo" width="120" height="120" decoding="async" style="width: 120px; height: 120px; object-fit: contain; margin-bottom: 24px;" />
 
   <h1 class="md-typescale-headline-small" style="margin-bottom: 16px;">Authentication successful 🎉 </h1>
 

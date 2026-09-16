@@ -139,8 +139,14 @@ keywords: act/on app, todo list app, task manager, checklist app, productivity a
     flex-wrap: wrap;
   }
 
-  .screenshot-gallery img {
+  .screenshot-gallery picture {
+    display: block;
+    width: 100%;
     max-width: 280px;
+  }
+
+  .screenshot-gallery img {
+    width: 100%;
     height: auto;
     border-radius: 16px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
@@ -235,23 +241,26 @@ keywords: act/on app, todo list app, task manager, checklist app, productivity a
 
 <div class="product-page">
   <div class="product-hero">
-    <img src="/assets/images/cues_logo_and_text.png" alt="act/on" style="width: 180px; height: auto; margin: 0 auto 1rem;">
+    <picture>
+      <source type="image/webp" srcset="/assets/images/cues_logo_and_text.webp">
+      <img src="/assets/images/cues_logo_and_text.png" alt="act/on" width="180" height="216" fetchpriority="high" decoding="async" style="width: 180px; height: auto; margin: 0 auto 1rem;">
+    </picture>
     <p class="tagline md-typescale-headline-medium">Track everything. Stay organized. Celebrate progress.</p>
     <p class="description md-typescale-body-large">
       A minimal list app designed to help you organize your life without the clutter. From daily tasks to long-term goals, act/on keeps everything in one place.
     </p>
     <div class="store-badges">
       <a href="https://play.google.com/store/apps/details?id=com.saintoracle.acton" class="store-badge play-store-badge" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/play_store.svg" alt="Get it on Google Play" />
+        <img src="/assets/images/play_store.svg" alt="Get it on Google Play" width="191" height="74" />
       </a>
       <a href="https://apps.apple.com/us/app/act-on/id6752871642" class="store-badge app-store-badge" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/app_store_black.svg" alt="Download on the App Store" />
+        <img src="/assets/images/app_store_black.svg" alt="Download on the App Store" width="185" height="62" />
       </a>
       <a href="https://apps.apple.com/us/app/act-on/id6752871642" class="store-badge mac-store-badge" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/mac_store_black.svg" alt="Download on the Mac App Store" />
+        <img src="/assets/images/mac_store_black.svg" alt="Download on the Mac App Store" width="242" height="62" />
       </a>
       <a href="https://apps.microsoft.com/detail/9njvr9lprxd9" class="store-badge windows-store-badge" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/ms_store_dark.svg" alt="Get it from Microsoft" />
+        <img src="/assets/images/ms_store_dark.svg" alt="Get it from Microsoft" width="227" height="62" />
       </a>
     </div>
   </div>
@@ -285,9 +294,18 @@ keywords: act/on app, todo list app, task manager, checklist app, productivity a
     <h2 class="md-typescale-display-small">See act/on in Action</h2>
     <p class="md-typescale-body-large">Experience a clean, focused interface designed for productivity.</p>
     <div class="screenshot-gallery">
-      <img src="/assets/images/screenshots/screenshot-3.jpg" alt="act/on screenshot 3" />
-      <img src="/assets/images/screenshots/screenshot-1.jpg" alt="act/on screenshot 1" />
-      <img src="/assets/images/screenshots/screenshot-2.jpg" alt="act/on screenshot 2" />
+      <picture>
+        <source type="image/webp" srcset="/assets/images/screenshots/screenshot-3-560.webp 560w, /assets/images/screenshots/screenshot-3-840.webp 840w" sizes="280px">
+        <img src="/assets/images/screenshots/screenshot-3-560.jpg" alt="act/on screenshot 3" width="560" height="1107" loading="lazy" decoding="async" />
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="/assets/images/screenshots/screenshot-1-560.webp 560w, /assets/images/screenshots/screenshot-1-840.webp 840w" sizes="280px">
+        <img src="/assets/images/screenshots/screenshot-1-560.jpg" alt="act/on screenshot 1" width="560" height="1107" loading="lazy" decoding="async" />
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="/assets/images/screenshots/screenshot-2-560.webp 560w, /assets/images/screenshots/screenshot-2-840.webp 840w" sizes="280px">
+        <img src="/assets/images/screenshots/screenshot-2-560.jpg" alt="act/on screenshot 2" width="560" height="1107" loading="lazy" decoding="async" />
+      </picture>
     </div>
   </div>
 
@@ -338,16 +356,16 @@ keywords: act/on app, todo list app, task manager, checklist app, productivity a
     </p>
     <div class="store-badges">
       <a href="https://play.google.com/store/apps/details?id=com.saintoracle.acton" class="store-badge play-store-badge" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/play_store.svg" alt="Get it on Google Play" />
+        <img src="/assets/images/play_store.svg" alt="Get it on Google Play" width="191" height="74" />
       </a>
       <a href="https://apps.apple.com/us/app/act-on/id6752871642" class="store-badge app-store-badge" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/app_store_black.svg" alt="Download on the App Store" />
+        <img src="/assets/images/app_store_black.svg" alt="Download on the App Store" width="185" height="62" />
       </a>
       <a href="https://apps.apple.com/us/app/act-on/id6752871642" class="store-badge mac-store-badge" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/mac_store_black.svg" alt="Download on the Mac App Store" />
+        <img src="/assets/images/mac_store_black.svg" alt="Download on the Mac App Store" width="242" height="62" />
       </a>
       <a href="https://apps.microsoft.com/detail/9njvr9lprxd9" class="store-badge windows-store-badge" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/ms_store_dark.svg" alt="Get it from Microsoft" />
+        <img src="/assets/images/ms_store_dark.svg" alt="Get it from Microsoft" width="227" height="62" />
       </a>
     </div>
 

@@ -13,7 +13,6 @@ title: act/on Terms of Service
   .legal-card {
     position: relative;
     border-radius: 16px;
-    --md-elevation-level: 2;
     background: var(--md-sys-color-surface, #fff);
     padding: 32px;
   }
@@ -74,8 +73,6 @@ title: act/on Terms of Service
 
 <div class="legal-container">
   <div class="legal-card surface">
-    <md-elevation></md-elevation>
-    
     <div class="legal-content">
       <h1 class="md-typescale-headline-large">act/on Terms of Service</h1>
       

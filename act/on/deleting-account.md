@@ -13,7 +13,6 @@ title: Deleting Your act/on Account
   .legal-card {
     position: relative;
     border-radius: 16px;
-    --md-elevation-level: 2;
     background: var(--md-sys-color-surface, #fff);
     padding: 32px;
   }
@@ -80,8 +79,6 @@ title: Deleting Your act/on Account
 
 <div class="legal-container">
   <div class="legal-card surface">
-    <md-elevation></md-elevation>
-    
     <div class="legal-content">
       <h1 class="md-typescale-headline-large">Deleting Your Account</h1>
       
@@ -102,14 +99,30 @@ title: Deleting Your act/on Account
         You can easily delete all your account data by visiting our <a href="https://acton.saintoracle.app/account/delete" style="color: var(--md-sys-color-primary, #339fc4ff); text-decoration: underline;">account deletion page</a>, or from within the app.
       </p>
 
-      <h2 class="md-typescale-title-large">If you are signed in...</h2>
+      <h2 class="md-typescale-title-large">If you have signed in...</h2>
       <p class="md-typescale-body-large">
-        Visit <a href="https://acton.saintoracle.app/account/delete" style="color: var(--md-sys-color-primary, #339fc4ff); text-decoration: underline;">acton.saintoracle.app/account/delete</a> to delete your account. You will be required to sign in and confirm. Once you do, your data will be immediately deleted and your authenticated status revoked. You can also delete your account from within the app by going to the "Account" tab and pressing the "Delete account and data" button.
+        There are two ways to permanently delete your account and all data stored on our servers:
       </p>
-
-      <h2 class="md-typescale-title-large">If you are NOT signed in...</h2>
+      <ul class="md-typescale-body-large">
+        <li>
+          <strong>Using the account deletion page</strong>
+          <ol>
+            <li>Visit <a href="https://acton.saintoracle.app/account/delete" style="color: var(--md-sys-color-primary, #339fc4ff); text-decoration: underline;">acton.saintoracle.app/account/delete</a>.</li>
+            <li>Sign in using the same account provider (Google, Apple, etc.) that you originally signed in with.</li>
+            <li>Confirm the deletion when prompted.</li>
+          </ol>
+        </li>
+        <li>
+          <strong>From within the app</strong>
+          <ol>
+            <li>Open act/on and go to the <strong>Account</strong> tab.</li>
+            <li>If you are not currently signed in, sign in using the same account provider (Google, Apple, etc.) that you originally signed in with.</li>
+            <li>Press <strong>Delete account and data</strong> and follow the confirmation prompts.</li>
+          </ol>
+        </li>
+      </ul>
       <p class="md-typescale-body-large">
-        If you have signed in before, and you wish to delete your data, you'll need to sign in using the same auth account provider (Google, Apple, etc) that you did originally. Once you do, you'll be able to delete all remote data from the Account tab, by pressing the "Delete account and data" button and following the succeeding prompts.
+        Either way, your data is deleted immediately and your signed-in status is revoked on all devices.
       </p>
 
       <h2 class="md-typescale-title-large">If you have never signed in...</h2>
@@ -118,7 +131,7 @@ title: Deleting Your act/on Account
       </p>
 
       <div class="legal-footer">
-        <p class="md-typescale-body-medium">Last updated: {{ "now" | date: "%B %d, %Y" }}</p>
+        <p class="md-typescale-body-medium">Last updated: September 16, 2026</p>
       </div>
 
       <a href="/" class="back-button md-typescale-label-large">
