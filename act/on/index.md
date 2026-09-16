@@ -304,15 +304,15 @@ keywords: act/on app, todo list app, task manager, checklist app, productivity a
     <div class="screenshot-gallery">
       <picture>
         <source type="image/webp" srcset="/assets/images/screenshots/screenshot-3-560.webp 560w, /assets/images/screenshots/screenshot-3-840.webp 840w" sizes="280px">
-        <img src="/assets/images/screenshots/screenshot-3-560.jpg" alt="act/on screenshot 3" width="560" height="1107" loading="lazy" decoding="async" />
+        <img src="/assets/images/screenshots/screenshot-3-560.jpg" alt="act/on screenshot 3" width="560" height="1150" loading="lazy" decoding="async" />
       </picture>
       <picture>
         <source type="image/webp" srcset="/assets/images/screenshots/screenshot-1-560.webp 560w, /assets/images/screenshots/screenshot-1-840.webp 840w" sizes="280px">
-        <img src="/assets/images/screenshots/screenshot-1-560.jpg" alt="act/on screenshot 1" width="560" height="1107" loading="lazy" decoding="async" />
+        <img src="/assets/images/screenshots/screenshot-1-560.jpg" alt="act/on screenshot 1" width="560" height="1150" loading="lazy" decoding="async" />
       </picture>
       <picture>
         <source type="image/webp" srcset="/assets/images/screenshots/screenshot-2-560.webp 560w, /assets/images/screenshots/screenshot-2-840.webp 840w" sizes="280px">
-        <img src="/assets/images/screenshots/screenshot-2-560.jpg" alt="act/on screenshot 2" width="560" height="1107" loading="lazy" decoding="async" />
+        <img src="/assets/images/screenshots/screenshot-2-560.jpg" alt="act/on screenshot 2" width="560" height="1150" loading="lazy" decoding="async" />
       </picture>
     </div>
   </div>
